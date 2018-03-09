@@ -25,7 +25,7 @@ public class Node2 {
 	@Test
 	public void Google() throws Exception {
 		try {
-			nodeUrl = "http://172.17.0.1:5555/wd/hub";
+			nodeUrl =  "http://<IP Address>:<Port>/wd/hub";
 			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			capabilities.setBrowserName("firefox");
 			capabilities.setPlatform(Platform.getCurrent());
