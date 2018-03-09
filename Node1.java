@@ -26,7 +26,7 @@ public class Node1 {
 	public void Youtube() throws Exception {
 		try {
 			
-			nodeUrl = "http://172.17.0.1:5555/wd/hub";
+			nodeUrl = "http://<IP Address>:<Port>/wd/hub";
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setBrowserName("chrome");
 			capabilities.setPlatform(Platform.getCurrent());
